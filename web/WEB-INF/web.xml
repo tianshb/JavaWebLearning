@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>ServletDemo</servlet-name>
+        <servlet-class>MyServlet.ServletDemo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletRefresh</servlet-name>
+        <servlet-class>MyServlet.ServletRefresh</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletRequestHost</servlet-name>
+        <servlet-class>MyServlet.ServletRequestHost</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletCookie</servlet-name>
+        <servlet-class>MyServlet.ServletCookie</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo</servlet-name>
+        <url-pattern>/aa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletRefresh</servlet-name>
+        <url-pattern>/refresh</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletRequestHost</servlet-name>
+        <url-pattern>/request</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletCookie</servlet-name>
+        <url-pattern>/cookie</url-pattern>
+    </servlet-mapping>
+</web-app>
