@@ -21,7 +21,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>ServletDemo</servlet-name>
-        <url-pattern>/aa</url-pattern>
+        <url-pattern>/download</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ServletRefresh</servlet-name>
